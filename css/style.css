@@ -1,0 +1,61 @@
+.grid-field {
+    width: 600px;
+    margin: 50px auto 0 auto;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    grid-template-rows: repeat(6, 100px);
+}
+
+.game-field {
+    background-color: orange;
+    min-height: 10vh;
+    margin: 1px 1px 1px 1px;
+    line-height: 10vh;
+}
+
+.target {
+    background-color: green;
+    color: white;
+    font-size: 24pt;
+    text-align: center;
+  }
+
+.miss {
+    background-color: red;
+  }
+
+.bottom-section{
+    width: 600px;
+    margin: 50px auto 0 auto;
+  }
+
+.message {
+      display: none;
+  }
+
+.style-button-start {
+    width: 200px;
+    height: 80px;
+    background-color: #188630;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+
+.style-button-reload {
+    width: 200px;
+    height: 80px;
+    background-color: #1b40a5;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+
+.buttons {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
